@@ -2,9 +2,9 @@
 
 ```js
 function grade(mtk,bi,bing,ipa){
-    if(arguments.length === 4){
+    if(arguments.length === grade.length){
         total = mtk+bi+bing+ipa;
-        nilai = total/4;
+        nilai = total / arguments.length;
         if(nilai >= 90 && nilai <= 100){
             console.log("Grade anda A dengan nilai akhir ", nilai);
         }else if(nilai >= 80 && nilai <= 89){
@@ -19,11 +19,12 @@ function grade(mtk,bi,bing,ipa){
             console.log("Masukkan nilai yang tepat");
         }       
     }else{
-        console.log("Semua nilai harus diisi");
+        console.log("Anda salah menginputkan nilai");
     }
 }
 
 grade(90,90,90,90)
+grade(90,70,10,90)
 ```
 
 ket :

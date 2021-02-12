@@ -1,7 +1,8 @@
 function grade(mtk,bi,bing,ipa){
     if(arguments.length === 4){
         total = mtk+bi+bing+ipa;
-        nilai = total/4;
+        nilai = total/arguments.length;
+        
         if(nilai >= 90 && nilai <= 100){
             console.log("Grade anda A dengan nilai akhir ", nilai);
         }else if(nilai >= 80 && nilai <= 89){
