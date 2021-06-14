@@ -77,8 +77,10 @@ if (nilai > 5) {
 ```
 Link playcode [here](https://playcode.io/748704/)
 </br>
-#####Swith case
-Percabangan `swith case` adalah percabangan dengan kode program yang dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. 
+
+##### Switch case
+
+Percabangan `switch case` adalah percabangan dengan kode program yang dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. 
 
 Jika proses perbandingan tersebut menghasilkan nilai true, maka kode program pada case tersebut akan dijalankan.
 
