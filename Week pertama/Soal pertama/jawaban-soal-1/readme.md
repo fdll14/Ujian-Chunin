@@ -1,8 +1,8 @@
-<br>
-###Jawaban soal no 1
+### Jawaban soal no 1
 
 </br>
-####point pertama
+
+#### point pertama
 
 `Variabel` adalah sebuah nama yang mewakili sebuah nilai. Variabel bisa diisi dengan berbagai macam nilai seperti string (teks), number (angka), objek, array, dan sebagainya.
 
@@ -149,6 +149,7 @@ var jadwal = {
 console.log(jadwal.asal)
 ```
 </br>
+
 #### point keempat
 
 `Synchronous` sebuah perintah yang dijalankan secara berurutan, dengan menunggu perintah sebelumya selesai di jalankan. Seperti halnya mode default dalam proses eksekusi perintah kode. 
