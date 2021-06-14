@@ -29,7 +29,6 @@ Jenis tipe data yang ada pada `javascript`.
     Tipe data `number` pada JavaScript   Tidak ada integer, float, short, long seperti pada bahasa pemrograman lain. Hanya ada number.
 
 5. String
-
     Tipe `String` digunakan untuk menampilkan data tulisan (teks).
 
 6. Symbol
@@ -49,6 +48,7 @@ Jenis tipe data yang ada pada `javascript`.
 #### Point kedua
 
 ##### Swith case
+
 Percabangan `if else` digunakan untuk pengujian sebuah kondisi dimana jika kondisi yang diuji tersebut terpenuhi, maka program akan menjalankan pernyataan-pernyataan tertentu. 
 
 Jika kondisi yang diuji salah, program akan menjalankan pernyataan yang lain.
@@ -68,14 +68,14 @@ else {
 contoh :
 
 ```js
-nilai = 10;
+let nilai = 10;
 if (nilai > 5) {
     console.log("A");
   }else{
     console.log("B");
   }
 ```
-
+Link playcode [here](https://playcode.io/748704/)
 </br>
 #####Swith case
 Percabangan `swith case` adalah percabangan dengan kode program yang dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. 
@@ -100,7 +100,7 @@ switch(kondisi) {
 contoh :
 
 ```js
-nilai = 10;
+let nilai = 10;
 switch(nilai > 5){
 case true:
  console.log("A");
@@ -110,6 +110,7 @@ case false:
  break;
 }
 ```
+Link playcode [here](https://playcode.io/748703/)
 </br>
 
 #### Point ketiga
@@ -131,6 +132,8 @@ checkin(50);
 checkin(3);
 ```
 
+Link playcode [here](https://playcode.io/748014/)
+
 `Method` adalah fungsi yang merupakan properti dari suatu object.
 
 contoh :
@@ -145,6 +148,7 @@ var jadwal = {
 
 console.log(jadwal.asal)
 ```
+Link playcode [here](https://playcode.io/742832/)
 </br>
 
 #### Point keempat
