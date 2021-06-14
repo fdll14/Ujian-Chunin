@@ -47,7 +47,7 @@ Jenis tipe data yang ada pada `javascript`.
 
 #### Point kedua
 
-##### Swith case
+##### if else
 
 Percabangan `if else` digunakan untuk pengujian sebuah kondisi dimana jika kondisi yang diuji tersebut terpenuhi, maka program akan menjalankan pernyataan-pernyataan tertentu. 
 
