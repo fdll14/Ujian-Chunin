@@ -1,3 +1,9 @@
+/* 
+
+Contoh soal point pertama tentang variable dan tipe data
+
+*/
+
 //  Tipe data undefined
 
 let x; //membuat variabel tetapi tidak memberikan nilai
@@ -52,8 +58,8 @@ console.log(" ")
 
 // Tipe data array
 
-let mahasiswa =new Array();
-mahasiswa = ['Rini','Aldi','Acep','Putra']
+let mahasiswa = new Array();
+mahasiswa = ['Rini', 'Aldi', 'Acep', 'Putra']
 
 console.log("contoh Array")
 console.log(mahasiswa)
@@ -71,3 +77,60 @@ var jadwal = {
 console.log("contoh Object")
 console.log(jadwal.asal)
 console.log(" ")
+
+/*
+
+Contoh soal point kedua tentang if else dan switch case
+
+*/
+
+// if else
+
+nilai = 10;
+if (nilai > 5) {
+    console.log("A");
+} else {
+    console.log("B");
+}
+
+// swith case
+
+nilai = 10;
+switch (nilai > 5) {
+    case true:
+        console.log("A");
+        break;
+    case false:
+        console.log("B");
+        break;
+}
+
+/* 
+
+Contoh soal point ketiga tentang function dan method
+
+*/
+
+// function
+
+function checkin(nilai){
+    if(nilai >= 5){
+        console.log("Nilai ", nilai ," lebih besar dari 5")
+    }else{
+        console.log("Nilai ", nilai, " lebih kecil dari 5")
+    }
+}
+
+checkin(50);
+checkin(3);
+
+// method
+
+var jadwal = {
+    platform: 34,
+    telah_berangkat: false,
+    tujuan: "Medan",
+    asal: "Jakarta"
+};
+
+console.log(jadwal.asal)
