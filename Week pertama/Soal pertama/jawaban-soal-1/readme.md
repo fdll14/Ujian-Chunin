@@ -1,8 +1,8 @@
 <br>
-### Jawaban soal no 1
+###Jawaban soal no 1
 
 </br>
-#### point pertama
+####point pertama
 
 `Variabel` adalah sebuah nama yang mewakili sebuah nilai. Variabel bisa diisi dengan berbagai macam nilai seperti string (teks), number (angka), objek, array, dan sebagainya.
 
@@ -80,7 +80,7 @@ if (nilai > 5) {
 ```
 
 </br>
-##### Swith case
+#####Swith case
 Percabangan `swith case` adalah percabangan dengan kode program yang dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. 
 
 Jika proses perbandingan tersebut menghasilkan nilai true, maka kode program pada case tersebut akan dijalankan.
@@ -148,11 +148,10 @@ var jadwal = {
 
 console.log(jadwal.asal)
 ```
-
+</br>
 #### point keempat
 
-</br>
 `Synchronous` sebuah perintah yang dijalankan secara berurutan, dengan menunggu perintah sebelumya selesai di jalankan. Seperti halnya mode default dalam proses eksekusi perintah kode. 
+</br>
 
-
-`Asynchronous` tidak seperti synchronous yang mesti dijalankan secara berurutan.  Sebaliknya `Asynchronous` dia bisa jalan tanpa menunggu perintah sebelumnya selesai dijalankan.
+`Asynchronous` tidak seperti synchronous yang mesti dijalankan secara berurutan. Sebaliknya Asynchronous dia bisa jalan tanpa menunggu perintah sebelumnya selesai dijalankan.
