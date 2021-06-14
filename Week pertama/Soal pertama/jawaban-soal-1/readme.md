@@ -1,8 +1,6 @@
 ### Jawaban soal no 1
 
-</br>
-
-#### point pertama
+#### Point pertama
 
 `Variabel` adalah sebuah nama yang mewakili sebuah nilai. Variabel bisa diisi dengan berbagai macam nilai seperti string (teks), number (angka), objek, array, dan sebagainya.
 
@@ -48,7 +46,7 @@ Jenis tipe data yang ada pada `javascript`.
 
 </br>
 
-#### point kedua
+#### Point kedua
 
 </br>
 ##### Swith case
@@ -115,7 +113,7 @@ case false:
 ```
 </br>
 
-#### point ketiga
+#### Point ketiga
 
 `Function` adalah sebuah blok kode yang digunakan untuk membungkus suatu proses dengan tujuan agar penulisan kode atau proses yang sama tidak ditulis secara berulang kali. 
 
@@ -150,7 +148,7 @@ console.log(jadwal.asal)
 ```
 </br>
 
-#### point keempat
+#### Point keempat
 
 `Synchronous` sebuah perintah yang dijalankan secara berurutan, dengan menunggu perintah sebelumya selesai di jalankan. Seperti halnya mode default dalam proses eksekusi perintah kode. 
 </br>
