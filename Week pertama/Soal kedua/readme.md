@@ -38,7 +38,7 @@ grade(90,90,90,90)
 grade(90,70,10,90)
 ```
 
-Link playcode [here](https://playcode.io/736689/)
+Link playcode [here](https://playcode.io/736674/)
 <br>
 
 #### Point kedua
@@ -47,7 +47,7 @@ Link playcode [here](https://playcode.io/736689/)
 ![image](https://res.cloudinary.com/devloops7/image/upload/v1612761431/chunin/screenshot-docs.google.com-2021.02.08-12_14_19_byiobb.png)
 <br>
 
-1. Ubahlah data object dari gambar diatas tersebut menggunakan spread operator menjadi: name: nama anda email: email anda hobby: hobi anda. 
+1. Ubahlah data object dari gambar diatas tersebut menggunakan spread operator menjadi:<br> name : nama anda <br>email  : email anda <br>hobby : hobi anda. 
 
 ```js
 let data = {
@@ -65,6 +65,8 @@ let data = {
     phone: "1-770-736-8031 x56442",
     website: "hildegard.org"
 }
+
+let dataku = {...data}
 
 dataku.name = 'Muhamad Shuro Fadhillah'
 dataku.email = 'shuro.fadhillah@gmail.com'
@@ -113,3 +115,33 @@ lalu melakukan penggabungan 2 properti pada object adrress.
 ```
 
 Link playcode [here](https://playcode.io/736689/)
+<br>
+
+#### Point ketiga
+
+Buatlah program yang memiliki satu variabel dengan nama “printSegitiga” yg berisi tipe data number yang menghasilkan output segitiga terbalik yang berisi angka
+
+```js
+function segitiga(panjang) {
+    let hasil = '';
+    for (let i = panjang; i > 0; i--) {
+        for (let j = panjang; j > 0; j--) {
+            if (j > i) {
+                hasil += ' ';
+            } else {
+                hasil += i+' ';
+            }
+        }
+        hasil += '\n';
+    }
+    return hasil;
+}
+console.log(segitiga(5));
+```
+
+keterangan
+```
+membuat perulangan variable i yang valuenya berdasarkan parameter nilai, lalu melakukan pengecekan apakah value i kurang dari 0 jika iya lakukan statement didalamnya melakukan perulangan untuk membuat segitiga dimana value j diambil dari variable nilai dengan pengecekan apakah value j kurang dari 0 jika iya akan melakukan statement percabangan jika value j kurang dari i maka value hasil ditambah spasi jika tidak maka value hasil ditambah dengan value i dan ditambah spasi.
+```
+
+Link playcode [here](https://playcode.io/780521/)
