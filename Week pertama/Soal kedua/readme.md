@@ -111,3 +111,5 @@ Disini saya memisahkan tiap tiap properti dari object data menjadi variable terp
 
 lalu melakukan penggabungan 2 properti pada object adrress.
 ```
+
+Link playcode [here](https://playcode.io/736689/)
